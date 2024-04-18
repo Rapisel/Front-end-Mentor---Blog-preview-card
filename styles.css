@@ -24,7 +24,7 @@ body {
     background: var(--branco);
     padding: 1.6rem ;
     border-radius: 16px;
-    border: solid 3px;
+    border: solid 1px;
     box-shadow: 7px 7px 0 1px var(--preto);
     text-align: center;
 }
@@ -39,6 +39,10 @@ body {
     border-radius: 6px;
     max-width: 65px;
 }
+.box__ancora:hover {
+    background-color: var(--preto);
+    color: var(--amarelo);
+}
 .blog_imagem {
     margin: .3rem 0 1.2rem 0;
 }
@@ -51,13 +55,14 @@ body {
     align-items: center;
 }
 .box__data {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 14px;
     padding: .9rem 0;
 }
 .box__titulo {
     color: var(--preto);
     font-weight: 800;
-    font-size: 22px;
+    font-size: 24px;
 }
 .box__titulo:hover {
     color: var(--amarelo);
@@ -81,6 +86,6 @@ body {
     color: var(--preto);
     text-decoration: none;
     display: flex;
-    font-weight: 800;
+    font-weight: 700;
     padding: 0 0 0 .8rem ;
 }
